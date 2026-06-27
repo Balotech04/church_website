@@ -1,0 +1,194 @@
+body {
+    background-color: #e1ded9 !important;
+    padding-top: 70px;
+}
+.navbar {
+     background-color: #1a1a2a !important;
+    color: #ffffff;
+}
+#abtdiv {
+    background-color: #fdf3e3 !important;
+}
+.navbar-text {
+    font-family: 'Cinzel', serif !important;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+#aboutus {
+    text-align: center;
+    font-family: 'Cinzel', serif !important;
+    font-size: 2.5rem !important;
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+#line {
+    width: 80px ;
+    height: 4px;
+    background-color: #c9a84c !important;
+    border-radius: 2px;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#abtus {
+    text-align: center;
+    font-family: 'open-sans';
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+@media (max-width: 480px) {
+    nav img {
+        width: 30px !important;
+    }
+    nav span {
+        font-size: 1rem;
+    }
+    #aboutus {
+        font-size: 1.3rem;
+    }
+    #abtus {
+        font-size: 1.1rem;
+    }
+}
+/* Worship Section */
+.worship-section {
+    background-color: #eaf4fb;
+}
+
+.worship-title {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    color: #2c2c2c;
+    letter-spacing: 2px;
+}
+
+.worship-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.title-underline {
+    width: 80px;
+    height: 4px;
+    background-color: #c9a84c;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+/* Cards */
+.worship-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid #c9a84c;
+    transition: transform 0.3s ease;
+}
+
+.worship-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Icons */
+.worship-icon i {
+    font-size: 2.5rem;
+    color: #c9a84c;
+}
+
+/* Buttons */
+.btn-directions {
+    background-color: transparent;
+    border: 2px solid #c9a84c;
+    color: #c9a84c;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-directions:hover {
+    background-color: #c9a84c;
+    color: white;
+}
+
+.btn-join {
+    background-color: #c9a84c;
+    color: white;
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-join:hover {
+    background-color: #a8873a;
+    color: white;
+    transform: scale(1.05);
+}
+#btnn a:hover {
+    color: white !important;
+}
+#btnn a {
+    text-decoration: none;
+    color: #c9a84c;
+    display: block; /* this makes each link stack vertically */
+    margin-bottom: 8px;
+}
+footer {
+    background-color: #1a1a2a;
+    color: #ffffff;
+}
+
+footer h5 {
+    font-family: 'Cinzel', serif;
+    color: #c9a84c;
+    margin-bottom: 15px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+#btnn a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+#btnn a:hover {
+    color: #c9a84c;
+}
+
+footer .bi-facebook,
+footer .bi-instagram,
+footer .bi-youtube {
+    font-size: 1.4rem;
+    color: #c9a84c;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .bi-facebook:hover,
+footer .bi-instagram:hover,
+footer .bi-youtube:hover {
+    color: white;
+}
+
+#location, #phoneNo, #emailadd {
+    color: #c9a84c;
+    margin-right: 8px;
+}
+.btn-join i {
+    font-size: 1.4rem;
+}
